@@ -5,7 +5,14 @@
 }
 a {
   text-decoration: none;
+  color: #000000;
 }
+
+a:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+
 header {
   height: 520px;
   .menu {
@@ -32,7 +39,7 @@ header {
         color: black;
         margin-right: 20px;
       }
-      button {
+      .button {
         background: #d15432;
         color: #ffff;
         border: 1px solid #d15432;
@@ -43,7 +50,7 @@ header {
         cursor: pointer;
         transition: 0.3s;
       }
-      button:hover {
+      .button:hover {
         background: #ffff;
         color: #d15432;
         border: 1px solid #d15432;
@@ -54,7 +61,7 @@ header {
         cursor: pointer;
         transition: 0.3s;
       }
-      button:active {
+      .button:active {
         background: #d15432;
         color: #ffff;
         border: 1px solid #d15432;
@@ -274,5 +281,171 @@ header {
   }
   .copy-right {
     font-size: 15px;
+  }
+}
+
+/** Freres */
+.main-log {
+  padding: 45px 200px;
+  height: 100vh;
+  background: url("/assets/images/logbackground.png") no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-right {
+  margin-top: 288px;
+  margin-left: 200px;
+  text-align: left;
+  .button {
+    background: #d15432;
+    color: #ffff;
+    border: 1px solid #d15432;
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 20px;
+    width: 300px;
+  }
+  .button:hover {
+    background: #ffff;
+    color: #d15432;
+    border: 1px solid #d15432;
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 20px;
+    width: 300px;
+  }
+  .button:active {
+    background: #d15432;
+    color: #ffff;
+    border: 1px solid #d15432;
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 20px;
+    width: 300px;
+  }
+  p {
+    color: #ffffff;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+}
+
+.input-control {
+  height: 50px;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #adadad;
+  border-radius: 4px;
+  font-size: 15px;
+  color: #adadad;
+  margin: 10px 0;
+}
+
+.input-control:focus {
+  height: 50px;
+  padding: 10px;
+  width: 100%;
+  border: 2px solid #adadad;
+  border-radius: 4px;
+  font-size: 15px;
+  color: #adadad;
+  margin: 10px 0;
+}
+
+.form-control {
+  margin-bottom: 50px;
+}
+
+.card {
+  .title {
+    margin-top: 80px;
+    color: #ffffff;
+    font-size: 40px;
+  }
+
+  .title-prestator {
+    margin-top: 50px;
+    color: #ffffff;
+    font-size: 40px;
+  }
+
+  .sub-title {
+    margin: 50px 0 10px 0;
+    color: #ffffff;
+    font-size: 35px;
+  }
+  .sub-title-prestator {
+    color: #ffffff;
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  form {
+    background: #ffffff;
+    padding: 20px;
+    width: 500px;
+
+    button {
+      background: #d15432;
+      color: #ffff;
+      border: 1px solid #d15432;
+      padding: 10px;
+      font-size: 20px;
+      margin-right: 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.3s;
+      margin-top: 20px;
+      width: 100%;
+    }
+    button:hover {
+      background: #ffff;
+      color: #d15432;
+      border: 1px solid #d15432;
+      padding: 10px;
+      font-size: 20px;
+      margin-right: 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.3s;
+      margin-top: 20px;
+      width: 100%;
+    }
+    button:active {
+      background: #d15432;
+      color: #ffff;
+      border: 1px solid #d15432;
+      padding: 10px;
+      font-size: 20px;
+      margin-right: 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.3s;
+      margin-top: 20px;
+      width: 100%;
+    }
+    .span {
+      text-align: right;
+    }
+  }
+  .text-buttom {
+    color: #ffffff;
+    margin: 30px 0;
+    a {
+      color: #ffff;
+    }
   }
 }
